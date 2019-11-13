@@ -1,0 +1,8 @@
+{
+  "name": "vitae",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Kardiah/vitae.git",
+  "author": "kardiah <winckler.p@gmail.com>",
+  "license": "MIT"
+}
