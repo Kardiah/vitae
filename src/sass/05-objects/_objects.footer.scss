@@ -1,0 +1,36 @@
+
+.o-footer {
+  display: flex;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1.3rem 2rem;
+
+  font-size: .8rem;
+  a {
+    color: $color-dark;
+    margin-left: 7px;
+    &:hover {
+      text-decoration: underline;
+      color: lighten($color-dark, 30);
+    }
+  }
+  span {
+    margin: 0 .5rem;
+    margin-top: .4rem;
+  }
+
+  @include mobile {
+    justify-content: center;
+    a {
+      margin-top: 5px;
+    }
+  }
+  @include tablet {
+    justify-content: flex-start;
+    a {
+      margin-top: 7px;
+    }
+  }
+}

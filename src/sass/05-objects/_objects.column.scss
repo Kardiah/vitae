@@ -1,0 +1,21 @@
+
+.o-left, .o-right {
+  height: auto;
+  min-height: 100px;
+
+  @include desktop {
+    width: 50% !important;
+  }
+
+}
+
+.o-cell {
+  display: flex;
+  height: auto;
+  min-height: 100px;
+  background-color: #fff;
+
+  @include desktop {
+    width: 33% !important;
+  }
+}

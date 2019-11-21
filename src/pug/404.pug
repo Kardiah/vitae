@@ -1,0 +1,22 @@
+doctype html
+html(lang="fr")
+  
+  head
+    meta(charset="utf-8")
+    title Pierre Winckler | Oops!
+    link(rel="stylesheet", href="styles/main-min.css")
+    link(rel="icon" href="assets/img/favicon.png")
+
+  body
+    .o-canvas
+      include includes/svg/shaft.svg
+      p(class='u-text--error') La page que vous cherchez n'existe pas.
+      a(class='c-btn u-btn--primary', href='index.html') Retour à l'accueil
+      
+      .o-footer.u-link--footer
+        p Made with 💛 by
+        a(class='u-link--under' href='https://github.com/Kardiah/vitae', target='_blank') Pierre Winckler
+        span |
+        a(class='u-link--under' href='https://www.linkedin.com/in/pierre-winckler/', target='_blank') LinkedIn
+      
+    script(src="main.js")

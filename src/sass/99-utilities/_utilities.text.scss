@@ -1,0 +1,33 @@
+
+// text
+.u-text--upper {
+  text-transform: uppercase !important;
+}
+
+.u-text--right {
+  text-align: right !important;
+}
+
+.u-text--error {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.u-text--justify {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+// color
+.u-color--dark {
+  color: $color-dark !important;
+}
+
+// link
+.u-link--under {
+  text-decoration: underline !important;
+}
+
+.u-link--footer {
+  position: absolute;
+}
