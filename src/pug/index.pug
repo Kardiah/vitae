@@ -1,0 +1,98 @@
+doctype html
+html(lang="fr")
+  
+  head
+    meta(charset="utf-8")
+    title Pierre Winckler | CV
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="styles/main-min.css")
+    link(rel="icon" href="assets/img/favicon.png")
+
+  body
+    
+    .o-section.u-section--hero
+      .o-container
+        .o-left
+          .c-headline Hello 
+            span 🤟
+          h1 Pierre Winckler
+          p Développeur front-end junior
+          
+          .o-bloc
+            a(class='c-btn u-btn--github', href='https://github.com/Kardiah', target='_blank')
+              .c-icon
+                include includes/svg/github.svg
+              span Projets
+            a(class='c-btn u-btn--action', href='assets/pdf/paper.pdf', target='_blank')
+              .c-icon
+                include includes/svg/cv.svg
+              span CV PDF
+        .o-right
+          .c-hero-welcome
+            include includes/svg/hello.svg
+          
+      .mouse
+        .scroller
+        
+    .o-section.u-section--work
+      .o-container
+        .o-left
+          h2 Qui suis-je ?
+          p Passionné d’arts depuis mes jeunes années, j’ai plongé dans des études alliant cette passion avec un autre passe-temps, l’informatique. De là débute mon parcours en webdesign puis en tant que développeur.
+          p L’intérêt pour une vie d’indépendant me mena dans un long processus de réflexion sur le domaine d’activités dans lequel je voulais oeuvrer : business plans, formation en gestion, rencontres professionnelles, .... Pour enfin me lancer en tant que graphiste.
+          .o-bloc--work
+            a(class="c-btn u-btn--primary", href='assets/pdf/brand.pdf', target='_blank') Charte graphique
+            .c-icon(title="Adobe Illustrator")
+              include includes/svg/illustrator.svg
+            .c-icon(title="Adobe Photoshop")
+              include includes/svg/photoshop.svg
+        .o-right
+          include includes/svg/logotype.svg
+        
+    .o-section.u-section--project
+      .o-container
+        .o-left
+          include includes/svg/space.svg
+        .o-right
+          h2 Nouveau départ
+          p Après cette expérience enrichissante, j’ai voulu me consacrer plus amplement à mon intérêt grandissant pour le développement web en suivant la formation BeCode à Liège. J’ai pu avancer dans ce moment charnière de 6 mois de formation grâce à ma persévérance, ma motivation, mon esprit d’équipe et mon empathie.
+          .o-bloc--work
+            a(class="c-btn u-btn--yellow", href="badges.html") Mes badges
+            .c-icon(title="Atom")
+              include includes/svg/atom.svg
+            .c-icon(title="Git")
+              include includes/svg/git.svg
+            .c-icon(title="Yarn")
+              include includes/svg/yarn.svg
+            
+    .o-section.u-section--skill
+      .o-container
+        .o-left
+          h2 Mes compétences
+          p J’ai également beaucoup travaillé sur mon processus de travail et sur mes compétences techniques (bibliothèques Javascript, UX et UI).
+          p Après cette période, je suis à la recherche d’un défi professionnel afin de partager ma passion du webdesign et du détail dans mes créations.
+          .o-bloc--work
+            .c-icon(title="HTML")
+              include includes/svg/html.svg
+            .c-icon(title="CSS")
+              include includes/svg/css.svg
+            .c-icon(title="JavaScript")
+              include includes/svg/script.svg
+            .c-icon(title="Vuejs")
+              include includes/svg/vue.svg
+            .c-icon(title="Sass")
+              include includes/svg/sass.svg
+        .o-right
+          include includes/svg/mail.svg
+          
+    .o-section.u-section--contact
+      .o-container
+        a(class="c-btn u-btn--yellow", href="mailto:winckler.p@gmail.com") Me contacter
+      
+    .o-footer
+      p Made with 💛 by
+      a(class='u-link--under' href='https://github.com/Kardiah/vitae', target='_blank') Pierre Winckler
+      span |
+      a(class='u-link--under' href='https://www.linkedin.com/in/pierre-winckler/', target='_blank') LinkedIn
+
+    script(src="main.js")

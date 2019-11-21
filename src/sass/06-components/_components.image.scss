@@ -1,0 +1,97 @@
+
+.c-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.c-icon-skill {
+  display: inline-block;
+}
+
+.c-svg-mail {
+  margin-left: 100px;
+  animation: flight 2s ease-in-out infinite;
+
+  @include mobile {
+    height: 100px;
+    margin-top: 45px;
+    margin-left: 170px;
+  }
+  @include desktop {
+    height: 200px;
+  }
+}
+
+// Home
+.c-svg-hello {
+  position: absolute;
+  z-index: 50;
+
+  @include mobile {
+    display: none;
+  }
+  @include desktop {
+    display: block;
+    width: 500px;
+  }
+  @include wide {
+    width: 600px;
+  }
+}
+
+.c-svg-bird {
+  animation: flight 2s ease-in-out infinite;
+}
+
+// 404
+.c-svg-shaft {
+  @include mobile {
+    width: 400px;
+    padding: 3rem 0 0 0;
+  }
+  @include phablet {
+    width: 600px;
+    padding: 1rem 0 0 0;
+  }
+}
+
+// github
+.c-svg-github {
+  width: 22px;
+  margin-right: .7rem;
+}
+
+.c-svg-cv {
+  width: 17px;
+  margin-right: .7rem;
+}
+
+.c-svg-icon {
+  height: 33px;
+  margin-left: 20px;
+}
+
+.c-svg-logotype {
+  @include mobile {
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  @include phablet {
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 0;
+  }
+}
+
+.c-badge-icon {
+  width: 150px;
+  height: 150px;
+}
+
+.c-svg-space {
+  position: absolute;
+  left: 150px;
+  bottom: 0;
+  width: 33%;
+}

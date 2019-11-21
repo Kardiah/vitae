@@ -1,0 +1,70 @@
+
+.u-section--hero {
+  height: 100vh !important;
+  h2 {
+    margin-top: 1.5rem;
+  }
+  p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: lighten($color-dark, 50);
+  }
+  a {
+    margin-right: 1rem;
+  }
+  .c-headline {
+    margin-top: 6rem;
+  }
+}
+
+.u-section--work {
+  background-color: $color-primary;
+  h2 {
+    padding-bottom: 3rem;
+  }
+  p {
+    padding: 0 0 2rem;
+  }
+}
+
+.u-section--project {
+  color: $color-neutral;
+  background-color: #2d2a32;
+  h2 {
+    padding-bottom: 3rem;
+  }
+  p {
+    padding: 0 0 2rem;
+  }
+  .o-left {
+    @include mobile {
+      display: none;
+    }
+    @include desktop {
+      display: block;
+    }
+  }
+}
+
+.u-section--skill {
+  color: #2d2a32;
+  h2 {
+    padding-bottom: 3rem;
+  }
+  p {
+    padding: 0 0 2rem;
+  }
+}
+
+.u-section--about {
+  padding: 5rem 0 !important;
+}
+
+.u-section--contact {
+  padding: 0 0 2rem 0 !important;
+
+  * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

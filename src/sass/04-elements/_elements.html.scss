@@ -1,0 +1,9 @@
+
+html {
+  @include mobile {
+    font-size: $mobile-font-size;
+  }
+  @include tablet {
+    font-size: $base-font-size;
+  }
+}

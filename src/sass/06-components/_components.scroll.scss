@@ -1,0 +1,37 @@
+
+
+.mouse {
+  width: 3px;
+  height: 35px;
+  padding: 10px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #000;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+
+  @include mobile {
+    margin-top: 15vh;
+  }
+  @include desktop {
+    margin-top: 33vh;
+  }
+}
+
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #000;
+  animation-name: scroll;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
