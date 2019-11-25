@@ -95,3 +95,17 @@
   bottom: 0;
   width: 33%;
 }
+
+.c-badge {
+  position: relative;
+  height: 186px;
+  margin: 7px;
+  border: 0px;
+
+  @include mobile {
+    width: 100%;
+  }
+  @include desktop {
+    width: 330px;
+  }
+}
