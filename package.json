@@ -11,10 +11,10 @@
     "sass": "sass --no-source-map --watch --style compressed src/sass/main.scss:public/styles/main-min.css"
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.0",
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "pug": "^2.0.4",
-    "sass": "^1.23.3"
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "pug": "^3.0.0",
+    "sass": "^1.29.0"
   }
 }
